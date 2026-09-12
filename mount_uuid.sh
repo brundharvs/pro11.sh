@@ -19,7 +19,7 @@ sudo mkdir -p /mnt/mydisk
 
 # Mount filesystem using UUID
 # Replace YOUR_UUID with actual UUID
-sudo mount UUID=YOUR_UUID /mnt/mydisk
+sudo mount UUID=/dev/sda1: UUID="12345678-abcd-4ef0-9012-3456789abcde" TYPE="ext4" /mnt/mydisk
 
 
 
