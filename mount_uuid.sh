@@ -13,8 +13,6 @@ sudo blkid
 sudo mkdir -p /mnt/mydisk
 
 # Mount filesystem using UUID
-sudo mount UUID="fde81de0-9b54-4312-8f95-5bdfe1527056" /mnt/mydisk
-
 #Place YOUR_UUID with actual UUID
 sudo mount UUID="fde81de0-9b54-4312-8f95-5bdfe1527056" /mnt/mydisk
 
